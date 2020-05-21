@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- <style name="MaterialTheme" parent="Theme.MaterialComponents"> <item
+        name="colorPrimary">#212121</item> <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#000000</item> <item name="colorSecondary">#2962FF</item>
+        <item name="colorSecondaryVariant">#0039CB</item> <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item> <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item> <item name="colorOnSurface">#212121</item>
+        <item name="android:colorBackground">@color/background</item> <item name="colorOnBackground">#212121</item>
+        <item name="fontFamily">@font/eczar</item> <item name="android:fontFamily">@font/eczar</item>
+        <item name="materialButtonStyle">@style/AppButton</item> <item name="textInputStyle">@style/AppTextField</item>
+        </style> <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?attr/colorSecondary</item> </style> <style name="AppTextField"
+        parent="Widget.MaterialComponents.TextInputLayout.FilledBox"> <item name="boxBackgroundColor">@color/text_field_background</item>
+        </style> -->
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_background"
+    android:theme="@style/AppTheme"
+    >
+
+    <TextView
+        android:id="@+id/shopping_cart_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:text="@string/welcome_title"
+        android:textSize="40sp"
+        android:textColor="@color/color_on_primary"
+        android:background="@color/color_primary_variant"
+        android:fontFamily="@font/eczar"
+        />
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:padding="40dp"
+        android:orientation="vertical"
+        >
+
+        <Button android:id="@+id/home_new_db"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:background="@color/color_secondary"
+            android:text="@string/set_up_db"
+            android:textColor="@color/color_on_secondary"
+            android:textSize="20sp"
+            android:fontFamily="@font/eczar"
+            />
+
+        <Button android:id="@+id/home_alogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/color_secondary"
+            android:text="@string/admin_login"
+            android:textColor="@color/color_on_secondary"
+            android:textSize="20sp"
+            android:fontFamily="@font/eczar"
+            />
+
+        <Button android:id="@+id/home_more_opt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/color_secondary"
+            android:text="@string/more_opts"
+            android:textColor="@color/color_on_secondary"
+            android:textSize="20sp"
+            android:fontFamily="@font/eczar"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

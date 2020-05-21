@@ -1,0 +1,41 @@
+
+Working Agreement Team Cyan
+
+Our daily stand up meetings will be MON: 5pm, TUE: 3pm, THU: 4pm, FRI: 3pm, and SUN: 8pm it will be located at the Second Floor of the student center for weekday meetings, while the Sunday meeting will be held in a facebook messenger call.
+
+If a team member is late 2 meetings in a week, they must buy a box of 15 to 50 Timbits for the group, depending on how late / how guilty they feel. 
+
+Facebook Messenger will be the means of team communication, whileTrello will be used for distributing tasks and deciding who is going to be working on what section of the project.
+
+Teammates must respond within 45 minutes to the facebook group chat if their name is mentioned, between 10am and 10pm.
+
+All working code should be committed at least 12 hours before the deadline.
+
+Branching Strategy
+Our branching strategy will consist of a main branch and a functional/in development branch. Only code that satisfies our definition of done can be committed to the main branch. While the functional branch will be used for code that is in progress or code that is being tested.
+		
+                      - Main             //the main code to be submitted for marking
+                      - Tags -v1.00      //for versioned software (not really needed for this project)
+                             -v1.01
+                      - Branch - Ali     // the files each of us going to work on 
+                               - Owen
+                               - Harris
+                               - Obaida
+                               - Henson
+
+Our definition of done: 
+Our definition of done will be code that is extensively unit tested, as well as peer-reviewed by at least one other member from the group. The code must also be able to integrate with the rest of the code in the main branch. After these conditions are met the code can be committed to the main branch.
+
+If someone drops the course the workload will be equally distributed among the remaining members, the distribution will depend on each member’s expertise and their current workload, and an additional spontaneous meeting can be held to further discuss the distribution.
+
+All commit messages should be in the format:
+
+[UTORID]: [DD/MM/YY - HH: MM] | [FILE WORKED ON] | 
+[METHODS WORKED ON] |
+[WHAT CHANGES TO THE METHOD WERE MADE / IF IT WAS FINISHED]
+
+Only commit one file at a time / commit each time you finish working on a file
+
+You must describe what you worked on in each commit, or if you completely finished the file. If you finished the file you must specify how much unit testing you have done on the file / if any was done.
+
+Scrum Master - Obaida Saleh, mutiny is allowed if every other member decides that the current scrum master is not performing his responsibilities. Responsibilities include efficiently handling issues between other members, as well as taking down notes for each stand-up meeting and making sure every member is able to contribute to the meetings.

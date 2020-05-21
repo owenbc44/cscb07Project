@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CustomerActivity"
+    android:theme="@style/AppTheme"
+    android:background="@color/color_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:background="@color/color_background"
+        android:id="@+id/recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/shopping_cart_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:text="@string/customer_title"
+        android:textSize="40sp"
+        android:textColor="@color/color_on_primary"
+        android:background="@color/color_primary_variant"
+        android:fontFamily="@font/eczar"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+            android:id="@+id/retrieve_cart_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_retrieve_24px"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="10dp"/>
+
+        <ImageButton
+            android:id="@+id/shopping_cart_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_shopping_cart_24px"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

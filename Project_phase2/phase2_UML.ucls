@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.b07.users.Customer" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/users/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="231" x="-228" y="353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.b07.users.Admin" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/users/Admin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="245" width="231" x="43" y="353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.b07.users.User" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/users/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="371" width="177" x="166" y="-58"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.b07.users.UserImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/users/UserImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="191" width="181" x="314" y="353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.b07.users.Employee" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/users/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="232" x="535" y="353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.b07.store.ShoppingCart" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/ShoppingCart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="299" width="231" x="1293" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.b07.store.DatabaseDriverExtender" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/DatabaseDriverExtender.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1723" y="1870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.b07.store.Sale" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/Sale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="252" x="2322" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="com.b07.store.SalesLog" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/SalesLog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="141" x="2141" y="450"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.b07.store.SalesLogImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/SalesLogImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="141" x="2141" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.b07.store.EmployeeInterface" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/EmployeeInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="254" x="1847" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.b07.store.SaleImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/SaleImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="252" x="2322" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.b07.store.SalesApplication" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/store/SalesApplication.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="137" x="2614" y="111"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.b07.security.PasswordHelpers" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/security/PasswordHelpers.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="246" x="911" y="189"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.b07.inventory.InventoryImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/inventory/InventoryImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="252" x="1010" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="com.b07.inventory.Inventory" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/inventory/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="252" x="1010" y="853"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="com.b07.inventory.Item" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/inventory/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="164" x="1302" y="853"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="com.b07.inventory.ItemImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/inventory/ItemImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="245" width="192" x="1302" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.b07.exceptions.InvalidItemException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidItemException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="165" x="1966" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.b07.exceptions.InvalidPriceException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidPriceException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="170" x="2171" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.b07.exceptions.RoleIdNotFoundException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/RoleIdNotFoundException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="200" x="2381" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.b07.exceptions.DatabaseInsertException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/DatabaseInsertException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1966" y="755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.b07.exceptions.InvalidInputException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidInputException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3185" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.b07.exceptions.ConnectionFailedException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/ConnectionFailedException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2233" y="747"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.b07.exceptions.ItemIdNotFoundException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/ItemIdNotFoundException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="199" x="2621" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.b07.exceptions.InvalidRoleException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidRoleException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="166" x="2860" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.b07.exceptions.UserIdNotFoundException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/UserIdNotFoundException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="201" x="3066" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.b07.exceptions.InvalidAgeException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidAgeException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="162" x="3307" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.b07.exceptions.InvalidQuantityException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidQuantityException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="193" x="3509" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.b07.exceptions.InvalidAddressException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/InvalidAddressException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="192" x="3742" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.b07.exceptions.SaleIdNotFoundException" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/exceptions/SaleIdNotFoundException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="199" x="3974" y="870"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="32" language="java" name="com.b07.enumerators.ItemTypes" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/enumerators/ItemTypes.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="193" x="220" y="1014"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="33" language="java" name="com.b07.enumerators.CompareStringToEnum" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/enumerators/CompareStringToEnum.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="193" x="453" y="1014"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="34" language="java" name="com.b07.enumerators.Roles" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/enumerators/Roles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="135" x="686" y="1014"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="35" language="java" name="com.b07.database.helper.DatabaseUpdateHelper" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/helper/DatabaseUpdateHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3036" y="1495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.b07.database.helper.DatabaseSelectHelper" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/helper/DatabaseSelectHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2695" y="1376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="com.b07.database.helper.DatabaseDriverHelper" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/helper/DatabaseDriverHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2057" y="1554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="com.b07.database.helper.DatabaseInsertHelper" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/helper/DatabaseInsertHelper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2370" y="1478"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.b07.database.DatabaseDriver" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/DatabaseDriver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="243" x="1935" y="1781"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="com.b07.database.DatabaseInserter" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/DatabaseInserter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="310" x="2218" y="1781"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="com.b07.database.DatabaseSelector" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/DatabaseSelector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="407" width="277" x="2568" y="1781"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="com.b07.database.DatabaseUpdater" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/database/DatabaseUpdater.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="309" x="2885" y="1781"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="43" language="java" name="com.b07.accounts.Account" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/accounts/Account.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="732" y="1464"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="44" language="java" name="com.b07.accounts.CustomerAccountImpl" project="Project_phase2_src" 
+    file="/Project_phase2_src/com/b07/accounts/CustomerAccountImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="281" x="260" y="1353"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <realization id="46">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="43"/>  
+  </realization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <generalization id="53">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="54">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="42"/>  
+  </generalization>  
+  <generalization id="55">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <realization id="58">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </realization>  
+  <generalization id="59">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="60">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="41"/>  
+  </generalization>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="64">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="23"/>  
+  </generalization>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="40"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

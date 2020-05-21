@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCartActivity"
+    android:theme="@style/AppTheme"
+    android:background="@color/color_background">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:id="@+id/recycler_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopping_cart_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="5dp"
+        android:text="@string/total_price"
+        android:textSize="20sp"
+        android:fontFamily="@font/eczar"
+        android:textColor="@color/color_on_secondary" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopping_cart_title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/total_price"
+        android:layout_marginTop="-15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="40dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="5dp"
+        android:drawableEnd="@drawable/ic_send_24px" />
+
+    <TextView
+        android:id="@+id/shopping_cart_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:text="@string/shopping_cart_title"
+        android:textSize="40sp"
+        android:textColor="@color/color_on_primary"
+        android:background="@color/color_primary_variant"
+        android:fontFamily="@font/eczar"
+        />
+
+    <Button
+        android:id="@+id/store_cart_in_accounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:text="@string/store_cart"
+        android:textColor="@color/color_on_secondary"
+        android:textSize="20sp"
+        android:fontFamily="@font/eczar"/>
+
+    <ImageButton
+        android:id="@+id/exit_shopping_cart"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_close_24px"
+        android:clickable="true"
+        android:focusable="true" />
+
+</RelativeLayout>

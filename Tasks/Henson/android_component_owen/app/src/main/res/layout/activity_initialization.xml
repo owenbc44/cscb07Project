@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InitializationActivity"
+    android:theme="@style/AppTheme"
+    android:background="@color/color_background">
+
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/color_background">
+
+        <LinearLayout android:id="@+id/init_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/admin_colon"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background"
+                android:textSize="24dp"/>
+
+
+            <EditText android:id="@+id/init_aname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/admin_name"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_aage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/admin_age"
+                android:inputType="number"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_aaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/admin_address"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_apassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/empl_colon"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background"
+                android:textSize="24dp"/>
+
+            <EditText android:id="@+id/init_ename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/employee_name"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_eage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/employee_age"
+                android:inputType="number"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_eaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/employee_address"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/init_epassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <Button android:id="@+id/init_database"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/init_db"
+                android:layout_gravity="center"
+                android:background="@color/color_secondary"
+                android:textColor="@color/color_on_secondary" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

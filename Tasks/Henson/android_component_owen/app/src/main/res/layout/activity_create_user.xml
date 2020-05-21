@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".CreateUserActivity"
+    android:theme="@style/AppTheme"
+    android:background="@color/color_background">
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+
+            <EditText android:id="@+id/cuser_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_name"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/cuser_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_age"
+                android:inputType="number"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/cuser_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_address"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <EditText android:id="@+id/cuser_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="@string/user_password"
+                android:inputType="textPassword"
+                android:fontFamily="@font/eczar"
+                android:textColor="@color/color_on_background"
+                android:textColorHint="@color/color_on_background" />
+
+            <Button android:id="@+id/cuser_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/create_user"
+                android:layout_gravity="center"
+                android:background="@color/color_secondary"
+                android:textColor="@color/color_on_secondary" />
+        </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:background="@color/color_background"
+    tools:context=".MainActivity"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="70dp"
+        android:scrollbars="vertical"
+        android:background="@color/color_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            android:orientation="vertical">
+
+            <Button android:id="@+id/auth"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:background="@color/color_secondary"
+                android:text="Authenticate New Employee"
+                android:textColor="@color/color_on_secondary"
+                android:drawableStart="@drawable/baseline_check_circle_white_18dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/eczar"
+                />
+
+            <Button android:id="@+id/new_acc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_secondary"
+                android:text="New Account"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:drawableStart="@drawable/baseline_person_add_white_18dp"
+                android:fontFamily="@font/eczar"/>
+
+            <Button android:id="@+id/new_empl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_secondary"
+                android:text="Make New Employee"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:drawableStart="@drawable/baseline_work_white_18dp"
+                android:fontFamily="@font/eczar"/>
+
+            <Button android:id="@+id/new_cust"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_secondary"
+                android:text="Make New Customer"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:drawableStart="@drawable/baseline_person_add_white_18dp"
+                android:fontFamily="@font/eczar"/>
+
+            <Button android:id="@+id/restock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_secondary"
+                android:text="Restock Inventory"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:drawableStart="@drawable/baseline_add_box_white_18dp"
+                android:fontFamily="@font/eczar"/>
+
+            <Button android:id="@+id/shop_on_customers_behalf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/color_secondary"
+                android:text="Shop on a Customer's behalf"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:drawableStart="@drawable/baseline_shopping_cart_white_18dp"
+                android:fontFamily="@font/eczar"/>
+
+            <Button android:id="@+id/empl_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/rounded_button"
+                android:text="Exit"
+                android:textColor="@color/color_on_secondary"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:fontFamily="@font/eczar"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/shopping_cart_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:text="@string/employee_title"
+        android:textSize="40sp"
+        android:textColor="@color/color_on_primary"
+        android:background="@color/color_primary_variant"
+        android:fontFamily="@font/eczar"
+        />
+
+</RelativeLayout>

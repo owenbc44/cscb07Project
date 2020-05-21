@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    android:theme="@style/AppTheme"
+    tools:context=".LoginActivity">
+
+
+    <EditText android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="@string/prompt_id"
+        android:fontFamily="@font/eczar"
+        android:textColor="@color/color_on_background"
+        android:textColorHint="@color/color_on_background" />
+
+
+    <EditText android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="@string/prompt_password"
+        android:fontFamily="@font/eczar"
+        android:inputType="textPassword"
+        android:textColor="@color/color_on_background"
+        android:textColorHint="@color/color_on_background" />
+
+    <Button android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@color/color_secondary"
+        android:textColor="@color/color_on_secondary"
+        android:fontFamily="@font/eczar"
+        android:text="@string/action_sign_in" />
+
+
+</LinearLayout>

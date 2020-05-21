@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_account_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    android:theme="@style/AppTheme"
+    tools:context=".NewAccountActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/prompt_id"
+        android:fontFamily="@font/eczar"
+        android:textSize="20sp"
+        android:textColor="@color/color_on_background" />
+
+    <EditText android:id="@+id/new_acc_customer_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/eczar"
+        android:inputType="number"
+        android:textColor="@color/color_on_background"
+        android:textColorHint="@color/color_on_background" />
+
+    <Button android:id="@+id/new_acc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@color/color_secondary"
+        android:textColor="@color/color_on_secondary"
+        android:fontFamily="@font/eczar"
+        android:text="@string/make_new_acc" />
+
+</LinearLayout>
